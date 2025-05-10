@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> Contacto | Akhlaq </title>
+        <link rel="stylesheet" href="css/estilos.css">
+
+    </head>
+    <body>
+        <header>Akhlaq</header>
+
+        <div class="zona-central">
+
+        <main>
+
+            <h2>Contáctanos</h2>
+
+            <form name="formulario" method="post">
+                Nombre:
+                <input type="text" name="nombre" value="" required><br><br>
+                Apellidos:
+                <input type="text" name="Apellidos" value=""><br><br>
+                Fecha de nacimiento:
+                <input type="date" name="Fecha" value=""><br><br>
+                Número de teléfono:
+                <input type="tel" name="numero" value="" required><br><br>
+
+                Selecciona tu Comunidad Autónoma:
+
+                <input list="Comunidad Autónoma">
+                <datalist id="Comunidad Autónoma">
+                    <option value="Andalucía"></option>
+                    <option value="Aragón"></option>
+                    <option value="Canarias"></option>
+                    <option value="Cantabria"></option>
+                    <option value="Castilla-La Mancha"></option>
+                    <option value="Castilla y León"></option>
+                    <option value="Cataluña"></option>
+                    <option value="Comunidad de Madrid"></option>
+                    <option value="Comunitat Valenciana"></option>
+                    <option value="Principado de Asturias"></option>
+                </datalist> <br><br>
+
+                Email:
+                <input type="email" name="email" value="" required><br><br>
+
+                ¿Cómo prefieres que te contactemos?<br>
+
+                <input type="radio" id="contacto-email" name="contacto" value="email">
+                <label for="contacto-email">Email</label><br>
+
+                <input type="radio" id="contacto-whatsapp" name="contacto" value="whatsapp">
+                <label for="contacto-whatsapp">WhatsApp</label><br>
+
+                <input type="radio" id="contacto-teléfono" name="contacto" value="llamada telefónica">
+                <label for="contacto-teléfono">Llamada telefónica</label><br> <br>
+
+                <textarea placeholder="Escribe aquí cualquier observación..."name="texto" cols="80" rows="10">Escribe aquí cualquier observación...
+                    
+                </textarea> <br> <br>
+           
+
+                <input type="submit" value="Enviar">
+            </form>
+        
+        </main>
+
+            <aside>
+            <p>O elige tú cómo contactarnos</p>
+
+            <ul>
+                <li> <a href="mailto:info@al-aklaq.com">info@al-akhlaq.com</a></li>
+                <li> <a href="tel:+34632157354">+34 632157354</a></li>
+            </ul>
+
+            <p>Trataremos de darte una respuesta en las próximas 48 horas :) </p>
+        </aside>
+
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Akhlaq. Todos los derechos reservados.</p>
+          </footer>
+
+    </body>
+</html>
